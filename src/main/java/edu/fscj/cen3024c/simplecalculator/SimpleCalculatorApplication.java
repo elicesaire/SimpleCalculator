@@ -3,6 +3,10 @@
 // 1/9/2024
 // Template for calculator application
 
+// Elijah Cesaire's Branch
+// 1/12/2025
+// Forked SimpleCalculatorApplication.
+
 package edu.fscj.cen3024c.simplecalculator;
 
 import org.springframework.boot.SpringApplication;
@@ -30,5 +34,25 @@ public class SimpleCalculatorApplication {
         // Test the subtract function
         result = subtract(number1, number2);
         System.out.println("Add result is: " + result);
+    }
+
+    // The Multiplication function
+    public static int multiply (int number1, int number2) {
+        return number1 * number2;
+    }
+
+    // The division function
+    public static int divide(int number1, int number2) {
+        return number1 / number2;
+    }
+
+    // The Addition function
+    public static int add(int number1, int number2) {
+        return number1 + number2;
+    }
+
+    // The Subtraction function
+    public static int subtract(int number1, int number2) {
+        return number1 - number2;
     }
 }
